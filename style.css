@@ -99,7 +99,7 @@ Released for free under a Creative Commons Attribution 2.5 License
   
   h2 { font-size: 24px; }
   
-  h3 { }
+ 
   
   p, ul, ol {
       margin-top: 25px;
@@ -108,9 +108,9 @@ Released for free under a Creative Commons Attribution 2.5 License
       font-size: 20px;
   }
   
-  ul, ol { }
+ 
   
-  blockquote { }
+  
   
   a { color: #C2C8CC; }
   
@@ -132,8 +132,8 @@ Released for free under a Creative Commons Attribution 2.5 License
   
   hr { display: none; }
   
-  .list1 {
-  }
+ 
+  
   
   .list1 li {
       float: left;
@@ -162,8 +162,7 @@ Released for free under a Creative Commons Attribution 2.5 License
   
   /* Header */
   
-  #header-wrapper {
-  }
+  
   
   #header {
       width: 1024px;
@@ -369,8 +368,7 @@ Released for free under a Creative Commons Attribution 2.5 License
       padding: 0 0 0 0px;
   }
   
-  .post .links .comments {
-  }
+  
   
   .post .links .permalink {
       padding-left: 17px;
@@ -433,8 +431,7 @@ Released for free under a Creative Commons Attribution 2.5 License
       padding-bottom: 20px;
   }
   
-  #sidebar a {
-  }
+  
   
   
   
@@ -455,8 +452,7 @@ Released for free under a Creative Commons Attribution 2.5 License
       line-height: normal;
   }
   
-  #footer a {
-  }
+
   #wrapper #page #content .post .entry .greenEntry .title strong {
       font-family: Georgia, Times New Roman, Times, serif;
   }
