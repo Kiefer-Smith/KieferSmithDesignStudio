@@ -1,0 +1,185 @@
+/* ===== Project Layout ===== */
+
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HERO */
+.project-hero {
+    padding: 60px 4% 20px 4%;
+}
+
+.project-hero video {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* WRAPPER */
+.project-wrapper {
+    max-width: 1400px;
+    margin: 40px auto 80px auto;
+    padding: 0 4%;
+}
+
+/* HEADER */
+.project-header {
+    margin-bottom: 30px;
+}
+
+.project-header h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.project-meta {
+    opacity: 0.6;
+    font-size: 0.95rem;
+}
+
+/* GRID */
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* CARD */
+.project-card {
+    background: #1c1c1c;
+    padding: 28px;
+    border-radius: 12px;
+}
+
+.project-card h3 {
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.project-card p,
+.project-info li {
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+/* LIST */
+.project-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-info li {
+    margin-bottom: 8px;
+}
+
+/* SECTIONS */
+.project-section {
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+.project-section h2 {
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.project-section p {
+    max-width: 900px;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.split-text h2 {
+    margin-bottom: 15px;
+}
+
+.split-text p {
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.split-image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .project-split {
+        grid-template-columns: 1fr;
+    }
+}
+
+.back-container {
+    margin-top: 80px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    padding-bottom: 4px;
+    transition: 0.2s ease;
+}
+
+.back-link:hover {
+    opacity: 0.6;
+}
+
+.project-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-download {
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+}
+
+.project-download:hover {
+    background: white;
+    color: #111;
+}
+
+.iteration-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.iteration-images img {
+    width: 100%;
+    border-radius: 10px;
+}
