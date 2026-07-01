@@ -242,14 +242,12 @@ body {
     line-height:1.7;
 }
 
-.project-footer {
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
+.project-status {
+    margin-bottom: 18px;
 }
 
 .project-link {
-    margin-left: auto;
+    display: inline-block;
 }
 /* =========================
    LINK (Subtle)
