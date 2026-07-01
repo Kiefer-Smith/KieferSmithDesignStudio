@@ -208,12 +208,9 @@ body {
 }
 
 .project-status {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    color: #7CFC7C;
+    font-size: 0.9rem;
     font-weight: 600;
-    font-size: 0.95rem;
+    color: #6CFF73;
 }
 
 .project-status::before {
