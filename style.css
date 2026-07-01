@@ -261,16 +261,19 @@ body {
 ========================= */
 
 .project-link {
-    font-size: 0.85rem;
+    display: inline-block;
+    margin-left: 12px;
+    padding: 12px 20px;
+    border: 1px solid #089900;
+    border-radius: 8px;
+    color: #fff;
     text-decoration: none;
-    color: white;
-    border-bottom: 1px solid rgba(255,255,255,0.6);
-    padding-bottom: 2px;
-    transition: 0.2s ease;
+    transition: 0.25s ease;
 }
 
 .project-link:hover {
-    opacity: 0.6;
+    background: #089900;
+    color: #111;
 }
 
 /* =========================
