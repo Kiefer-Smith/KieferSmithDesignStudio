@@ -208,17 +208,21 @@ body {
 }
 
 .project-status {
-    display: inline-block;
-    margin-top: 16px;
-    padding: 8px 14px;
-    border-radius: 20px;
-    background: rgba(8,153,0,.12);
-    border: 1px solid #089900;
-    color: #8cff87;
-    font-size: .85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #7CFC7C;
     font-weight: 600;
+    font-size: 0.95rem;
 }
 
+.project-status::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #089900;
+    border-radius: 50%;
+}
 /* =========================
    VIDEO (Smaller Height)
 ========================= */
