@@ -244,9 +244,12 @@ body {
 
 .project-footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 25px;
+}
+
+.project-link {
+    margin-left: auto;
 }
 /* =========================
    LINK (Subtle)
