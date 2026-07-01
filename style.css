@@ -207,6 +207,17 @@ body {
     letter-spacing: 0.3px;
 }
 
+.project-status {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: rgba(8,153,0,.12);
+    border: 1px solid #089900;
+    color: #8cff87;
+    font-size: .85rem;
+    font-weight: 600;
+}
 /* =========================
    VIDEO (Smaller Height)
 ========================= */
