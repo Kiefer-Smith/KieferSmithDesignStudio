@@ -174,19 +174,13 @@ body {
 ========================= */
 
 .project-card {
-    background: #1b1b1b;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: 1px solid rgba(255,255,255,.05);
 }
 
 .project-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px #089900;
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(8,153,0,.30);
 }
-
 .project-tags {
     display: flex;
     flex-wrap: wrap;
@@ -194,20 +188,10 @@ body {
     margin: 12px 0 16px;
 }
 
-.project-tag {
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 12px;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    color: #f5f5f5;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-}
-
 .project-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 0.9rem;
     font-weight: 600;
     color: #6CFF73;
@@ -219,6 +203,8 @@ body {
     height: 10px;
     background: #089900;
     border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
 }
 /* =========================
    VIDEO (Smaller Height)
@@ -236,7 +222,7 @@ body {
 ========================= */
 
 .project-content {
-    padding: 18px;
+    padding: 24px;
 }
 
 .project-content h3{
@@ -255,24 +241,27 @@ body {
     margin-bottom:28px;
     line-height:1.7;
 }
+
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
 /* =========================
    LINK (Subtle)
 ========================= */
 
 .project-link {
-    display: inline-block;
-    margin-left: 12px;
-    padding: 12px 20px;
-    border: 1px solid #089900;
-    border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.25s ease;
+    transition: all .25s ease;
 }
 
 .project-link:hover {
     background: #089900;
     color: #111;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(8,153,0,.25);
 }
 
 /* =========================
