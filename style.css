@@ -149,6 +149,10 @@ body {
    PROJECT SECTION
 ========================= */
 
+/* =========================
+   PROJECT SECTION
+========================= */
+
 .projects {
     padding: 100px 8%;
 }
@@ -160,41 +164,93 @@ body {
 }
 
 /* =========================
-   GRID (Tighter)
+   GRID
 ========================= */
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 580px); /* fixed width cards */
-    gap: 20px; /* smaller gap */
-    
+    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+    gap: 24px;
 }
+
 /* =========================
-   CARD (Smaller + Cleaner)
+   CARD
 ========================= */
 
 .project-card {
+    background: #1b1b1b;
     border: 1px solid rgba(255,255,255,.05);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(8,153,0,.30);
+    border-color: #089900;
+    box-shadow: 0 12px 30px rgba(8,153,0,.25);
 }
+
+/* =========================
+   VIDEO
+========================= */
+
+.project-media video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.project-content {
+    padding: 24px;
+}
+
+.project-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+}
+
+.project-role {
+    font-size: 1rem;
+    color: #bdbdbd;
+    margin-bottom: 18px;
+}
+
 .project-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin: 12px 0 16px;
+    gap: 10px;
+    margin-bottom: 24px;
 }
+
+.project-brief {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #d6d6d6;
+    margin-bottom: 28px;
+}
+
+/* =========================
+   STATUS
+========================= */
 
 .project-status {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 0.9rem;
-    font-weight: 600;
+
     color: #6CFF73;
+    font-size: .9rem;
+    font-weight: 600;
+
+    margin-bottom: 18px;
 }
 
 .project-status::before {
@@ -204,63 +260,21 @@ body {
     background: #089900;
     border-radius: 50%;
     display: inline-block;
-    flex-shrink: 0;
-}
-/* =========================
-   VIDEO (Smaller Height)
-========================= */
-
-.project-media video {
-    width: 100%;
-    height: 270px;   /* smaller than before */
-    object-fit: cover;
-    display: block;
 }
 
 /* =========================
-   CONTENT (Reduced Padding)
-========================= */
-
-.project-content {
-    padding: 24px;
-}
-
-.project-content h3{
-    font-size:1.75rem;
-}
-
-.project-meta{
-    font-size:1rem;
-    color:#bdbdbd;
-    margin-top:4px;
-    margin-bottom:18px;
-}
-
-.project-brief{
-    margin-top:24px;
-    margin-bottom:28px;
-    line-height:1.7;
-}
-
-.project-status {
-    margin-bottom: 18px;
-}
-
-.project-link {
-    display: inline-block;
-}
-/* =========================
-   LINK (Subtle)
+   BUTTON
 ========================= */
 
 .project-link,
 .project-link:link,
 .project-link:visited {
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    padding: 12px 22px;
+    padding: 14px 24px;
 
     border: 1px solid #089900;
     border-radius: 8px;
@@ -269,20 +283,18 @@ body {
     text-decoration: none;
     font-weight: 600;
 
-    transition: all 0.25s ease;
+    transition: all .25s ease;
 }
 
 .project-link:hover {
+
     background: #089900;
     color: #111;
+
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(8,153,0,.25);
-}
 
-.project-link:active {
-    transform: translateY(0);
+    box-shadow: 0 8px 18px rgba(8,153,0,.25);
 }
-
 /* =========================
    Education SECTION
 ========================= */
