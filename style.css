@@ -219,15 +219,6 @@ body {
     font-weight: 600;
 }
 
-.project-status-tag {
-    border-color: #f0ad4e;
-    color: #f0ad4e;
-}
-
-.project-status-tag:hover {
-    background-color: #f0ad4e;
-    color: #111;
-}
 /* =========================
    VIDEO (Smaller Height)
 ========================= */
