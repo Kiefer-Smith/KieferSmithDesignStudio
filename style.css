@@ -219,13 +219,6 @@ body {
     font-weight: 600;
 }
 
-.project-meta{
-    font-size:1rem;
-    color:#bdbdbd;
-    margin-top:4px;
-    margin-bottom:18px;
-}
-
 /* =========================
    VIDEO (Smaller Height)
 ========================= */
@@ -245,24 +238,22 @@ body {
     padding: 18px;
 }
 
-.project-content h3 {
-    font-size: 1.05rem;
-    margin-bottom: 6px;
+.project-content h3{
+    font-size:1.75rem;
 }
 
-.project-meta {
-    font-size: 0.8rem;
-    opacity: 0.6;
-    margin-bottom: 10px;
+.project-meta{
+    font-size:1rem;
+    color:#bdbdbd;
+    margin-top:4px;
+    margin-bottom:18px;
 }
 
-.project-brief {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    opacity: 0.8;
-    margin-bottom: 14px;
+.project-brief{
+    margin-top:24px;
+    margin-bottom:28px;
+    line-height:1.7;
 }
-
 /* =========================
    LINK (Subtle)
 ========================= */
