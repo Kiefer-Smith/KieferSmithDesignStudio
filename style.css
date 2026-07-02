@@ -165,23 +165,22 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 580px);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+    gap: 24px;
+    justify-content: center;
 }
-
 /* =========================
    CARD
 ========================= */
 
-.projects-card {
+.project-card {
     background: #1b1b1b;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition: transform .25s ease, box-shadow .25s ease;
 }
-
 .projects-card:hover {
     transform: translateY(-5px);
     border-color: #089900;
