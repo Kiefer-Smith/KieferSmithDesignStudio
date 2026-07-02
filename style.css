@@ -173,7 +173,7 @@ body {
    CARD
 ========================= */
 
-.project-card {
+.projects-card {
     background: #1b1b1b;
     border-radius: 10px;
     overflow: hidden;
@@ -182,7 +182,7 @@ body {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.project-card:hover {
+.projects-card:hover {
     transform: translateY(-5px);
     border-color: #089900;
     box-shadow: 0 12px 30px rgba(8,153,0,.25);
