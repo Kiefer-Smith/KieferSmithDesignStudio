@@ -93,9 +93,11 @@ body {
 }
 
 .project-section p {
-    max-width: 100%;
+    width: 100%;
+    max-width: none;
     line-height: 1.8;
     opacity: 0.9;
+    margin-bottom: 28px;
 }
 
 /* RESPONSIVE */
