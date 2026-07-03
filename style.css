@@ -165,9 +165,8 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 24px;
-    justify-content: center;
 }
 /* =========================
    CARD
@@ -181,7 +180,7 @@ body {
     flex-direction: column;
     transition: transform .25s ease, box-shadow .25s ease;
 }
-.projects-card:hover {
+.project-card:hover {
     transform: translateY(-5px);
     border-color: #089900;
     box-shadow: 0 12px 30px rgba(8,153,0,.25);
@@ -420,3 +419,100 @@ body {
   font-weight: bold;
 }
 
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .page-wrapper {
+        padding: 0 20px;
+    }
+
+    .header {
+        padding: 25px 0;
+    }
+
+    .header-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    .logo small {
+        font-size: 1rem;
+    }
+
+    .intro {
+        padding: 40px 0;
+    }
+
+    .intro-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .profile-img img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .intro-text h2 {
+        font-size: 1.7rem;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+    }
+
+    .projects {
+        padding: 60px 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-media video {
+        height: 220px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-link {
+        width: 100%;
+    }
+
+    .education {
+        padding: 60px 20px;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-container {
+        padding: 60px 20px;
+    }
+
+    .skills {
+        justify-content: center;
+    }
+
+    .about-me-section {
+        padding: 60px 20px;
+    }
+
+}
