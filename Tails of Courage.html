@@ -166,11 +166,11 @@
 <h2><strong>Movement Iteration – Fixing Tilemap Collision</strong></h2>
 
 <p>
-During playtesting the player would get caught in the tilemap and run in place while stuck.
+During playtesting the player would get caught in the tilemap and run in place while stuck, as well as looking like they are too low on branch rather than on top.
 </p>
 
 <p>
-After investigating the issue, I adjusted the player's collider and refined the tilemap collision setup, this resulted in the player no longer getting stuck in place with smoother movement.
+After investigating the issue, I adjusted the player's collider and refined the tilemap collision setup, this resulted in the player no longer getting stuck in place with smoother movement and the player is now on top of the branch.
 </p>
 
 <div class="iteration-comparison">
@@ -179,10 +179,11 @@ After investigating the issue, I adjusted the player's collider and refined the 
 
 <h3>Before</h3>
 
-<img src="Images/tilemap-before.gif" alt="Player getting stuck in tilemap">
+<img src="Media/Collision Issue-Before.mp4" alt="Player getting stuck in tilemap">
 
 <ul class="case-info">
 <li>Player gets caught in place while running</li>
+<li>Player looks like they are too low on branch</li>
 <li>Movement appears visually inconsistent</li>
 <li>Platform edges occasionally catch the player</li>
 </ul>
@@ -193,10 +194,11 @@ After investigating the issue, I adjusted the player's collider and refined the 
 
 <h3>After</h3>
 
-<img src="Images/tilemap-after.gif" alt="Tilemap collision fixed">
+<img src="Media/Collision Issue-After.mp4" alt="Tilemap collision fixed">
 
 <ul class="case-info">
 <li>Player no longer gets stuck after running or jumping.</li>
+<li>Player is now on top of branch</li>
 <li>Smoother movement across platforms</li>
 <li>More polished visual presentation</li>
 </ul>
