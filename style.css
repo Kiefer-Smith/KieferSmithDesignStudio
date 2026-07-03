@@ -419,100 +419,106 @@ body {
   font-weight: bold;
 }
 
-/* =========================
-   MOBILE
-========================= */
+/* =====================================
+   MOBILE ONLY
+===================================== */
+@media screen and (max-width:900px){
 
-@media (max-width: 768px) {
-
-    .page-wrapper {
-        padding: 0 20px;
+    /* General */
+    .page-wrapper{
+        padding:0 20px;
     }
 
-    .header {
-        padding: 25px 0;
+    /* Header */
+    .header{
+        padding:25px 0;
     }
 
-    .header-inner {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
+    .header-inner{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:15px;
     }
 
-    .logo h1 {
-        font-size: 2rem;
+    .links{
+        justify-content:center;
     }
 
-    .logo small {
-        font-size: 1rem;
+    /* Intro */
+    .intro{
+        padding:40px 0;
     }
 
-    .intro {
-        padding: 40px 0;
+    .intro-inner{
+        flex-direction:column;
+        text-align:center;
+        gap:30px;
     }
 
-    .intro-inner {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
+    .profile-img img{
+        width:180px;
+        height:180px;
     }
 
-    .profile-img img {
-        width: 180px;
-        height: 180px;
+    .intro-text h2{
+        font-size:2rem;
+        line-height:1.3;
     }
 
-    .intro-text h2 {
-        font-size: 1.7rem;
+    .intro-text p{
+        font-size:1rem;
     }
 
-    .intro-text p {
-        font-size: 1rem;
+    /* Projects */
+    .projects{
+        padding:60px 20px;
     }
 
-    .projects {
-        padding: 60px 20px;
+    .projects-grid{
+        grid-template-columns:1fr;
+        gap:25px;
     }
 
-    .projects-grid {
-        grid-template-columns: 1fr;
+    .project-media video{
+        height:220px;
     }
 
-    .project-media video {
-        height: 220px;
+    .project-content{
+        padding:20px;
     }
 
-    .project-content {
-        padding: 20px;
+    .project-content h3{
+        font-size:1.9rem;
     }
 
-    .project-content h3 {
-        font-size: 1.5rem;
+    .project-tags{
+        gap:8px;
     }
 
-    .project-link {
-        width: 100%;
+    /* Education */
+    .education{
+        padding:60px 20px;
     }
 
-    .education {
-        padding: 60px 20px;
+    .education-grid{
+        grid-template-columns:1fr;
     }
 
-    .education-grid {
-        grid-template-columns: 1fr;
+    .education-content h3{
+        font-size:1.5rem;
     }
 
-    .skills-container {
-        padding: 60px 20px;
+    /* Skills */
+    .skills-container{
+        padding:60px 20px;
     }
 
-    .skills {
-        justify-content: center;
+    /* About */
+    .about-me-section{
+        padding:60px 20px;
     }
 
-    .about-me-section {
-        padding: 60px 20px;
-    }
+}
 
 }
