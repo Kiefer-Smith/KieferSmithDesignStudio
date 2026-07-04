@@ -188,3 +188,69 @@ body {
     width: 100%;
     border-radius: 10px;
 }
+
+/* =========================
+   BEFORE / AFTER COMPARISON
+========================= */
+
+.iteration-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.comparison-card {
+    background: #1c1c1c;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.comparison-card h3 {
+    margin-bottom: 18px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.comparison-card img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.comparison-card p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.comparison-card .case-info {
+    margin-top: 15px;
+}
+
+.comparison-card .case-info li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+
+    .iteration-comparison {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .comparison-card {
+        padding: 20px;
+    }
+
+    .comparison-card h3 {
+        font-size: 1.2rem;
+    }
+}
